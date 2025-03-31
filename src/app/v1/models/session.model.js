@@ -18,6 +18,7 @@ class Session {
             const sql = `INSERT INTO agent_chat_message (session_id, role, content) VALUES (?, ?, ?)`;
             await pool.query(sql, [sessionId, role, content]);
         } catch (err) {
+            console.log(err)
             throw err;
         }
     }
