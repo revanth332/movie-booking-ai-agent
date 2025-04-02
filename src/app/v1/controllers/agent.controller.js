@@ -15,17 +15,21 @@ export const getLatestStockPrice = async (req,res) => {
 }
 
 export const completeChat = async (req,res) => {
-    const {sessionId,query} = req.body;
+    var {sessionId,query} = req.body;
+    console.log(sessionId)
     try{
+        if(!sessionId){
+            sessionId = await Session.create();
+        }
         const messages = await Session.getChatHistory(sessionId);
         const result = await movieAgent.generate([...messages,{role:"user",content:query}]);
         // const movies = JSON.parse(result.text.substring(8,result.text.length-3));
-        console.log(result.text + "kl");
         const response = result.text.includes("```json") ? result.text.substring(8,result.text.length-3) : result.text;
-
+        console.log(response)
         await Session.addMessage(sessionId,"user",query);
         await Session.addMessage(sessionId,"assistant",response);
-        return res.send(JSON.parse(response));
+        return res.send({...JSON.parse(response),sessionId});
+        // return res.send({response,sessionId});
     }
     catch(err){
         console.log(err);

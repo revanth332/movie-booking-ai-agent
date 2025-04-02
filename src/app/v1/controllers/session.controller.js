@@ -2,8 +2,9 @@ import Session from "../models/session.model.js";
 
 export const createSession = async (req,res) => {
     try{
-        await Session.create();
-        return res.send({response : "session created successfully"})
+        const result = await Session.create();
+        console.log(result)
+        return res.send({response : "session created successfully",sessionId : result})
     }
     catch(err){
         res.status(500).send(err)

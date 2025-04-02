@@ -107,9 +107,43 @@ CREATE TABLE "seat" (
 )
 `
 
+async function movieBooking(userId, seats, theaterTimeMovieId) {
+
+  console.log(bookingData);
+  try {
+    if (userId === "" || seats.length === 0 || theaterTimeMovieId === "") {
+      throw { status: StatusCodes.BAD_REQUEST, msg: "Invalid booking data" };
+    }
+
+    const pool = await poolPromise;
+    const bookingId = uuidv4();
+    await pool.query(`insert into booking values (?,?,?,?,?)`, [
+      bookingId,
+      new Date(),
+      userId,
+      1,
+      theaterTimeMovieId,
+    ]);
+    const paramList = [];
+    seats.forEach((seatId) => {
+      paramList.push([uuidv4(), bookingId, seatId]);
+    });
+    await pool.query("insert into booking_details values ?", [paramList]);
+    const response = await pool.query(
+      "update seat set status_id = 1 where seat_id in (?)",
+      [seats]
+    );
+    console.log(response);
+    return { status: StatusCodes.OK, msg: "Successfully booked movie" };
+  } catch (err) {
+    console.log(err);
+    throw err;
+  }
+}
+
 export const movieDetails = createTool({
     id : "get-movie-details",
-    description : DESCRIPTION + `Executes sql query to fetches the movie details based on Genre, name, rating, Actors based on the above schema.`,
+    description : DESCRIPTION + ` Executes sql query to fetches the movie details like theaters it is available, dates, and times based on Genre, name, rating, Actors based on the above schema.`,
     inputSchema : z.object({
         movieFetchingSqlquery : z.string(),
     }),
@@ -125,16 +159,17 @@ export const movieDetails = createTool({
 
 export const bookMovie = createTool({
     id : "book-movie",
-    description : DESCRIPTION + "Executes SQL query to book movie based on user input",
+    description : DESCRIPTION + " Books the movie based on userId, seatsIds, theaterMovieTimeId.",
     inputSchema : z.object({
-        moviBookingSqlquery : z.string(),
+        userId : z.string(),
+        seatsIds : z.string().array(),
+        theaterMovieTimeId : z.string()
     }),
-    execute : async ({context : {moviBookingSqlquery}}) => {
+    execute : async ({context : {userId,seatsIds,theaterMovieTimeId}}) => {
         console.log("booking movie using query : "+moviBookingSqlquery);
-        const pool = await poolPromise;
         return {
             query : moviBookingSqlquery,
-            movies : await pool.query(moviBookingSqlquery)
+            response : await movieBooking(userId, seatsIds, theaterMovieTimeId)
         }
     }
 })
