@@ -2,6 +2,7 @@ import { Agent } from "@mastra/core/agent";
 import * as tools from "../tools/movieDetails.js"
 import { createGoogleGenerativeAI } from '@ai-sdk/google';
 import config from "../config.js";
+
 // import { createAzure } from '@ai-sdk/azure';
 // import { createOllama } from 'ollama-ai-provider';
 
