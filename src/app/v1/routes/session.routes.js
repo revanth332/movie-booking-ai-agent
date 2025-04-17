@@ -1,5 +1,5 @@
 import express from "express";
-import { addMessage,createSession,getMessages } from "../controllers/session.controller.js";
+import { addMessage,createSession,getAllSessions,getMessages } from "../controllers/session.controller.js";
 
 const router = express.Router();
 
@@ -11,5 +11,8 @@ router.route("/message/add")
 
 router.route("/messages")
     .post(getMessages);
+
+router.route("/all")
+    .post(getAllSessions);
 
 export default router;

@@ -166,7 +166,7 @@ export const bookMovie = createTool({
         theaterMovieTimeId : z.string()
     }),
     execute : async ({context : {userId,seatsIds,theaterMovieTimeId}}) => {
-        console.log("booking movie using query : "+moviBookingSqlquery);
+        console.log("booking movie using query : "+ moviBookingSqlquery);
         return {
             query : moviBookingSqlquery,
             response : await movieBooking(userId, seatsIds, theaterMovieTimeId)

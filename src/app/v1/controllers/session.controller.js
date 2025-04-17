@@ -32,3 +32,14 @@ export const getMessages = async (req,res) => {
         res.status(500).send(err)
     }
 }
+
+export const getAllSessions = async (req,res) => {
+    const {conversationId : sessionId} = req.body;
+    try{
+        const conversations = await Session.getAllSessions(sessionId);
+        return res.send({conversations})
+    }
+    catch(err){
+        res.status(500).send("Something went wrong")
+    }
+}

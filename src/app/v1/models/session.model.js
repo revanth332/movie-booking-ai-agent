@@ -36,8 +36,20 @@ class Session {
     static async getAllSessions(){
         try{
             const pool = await poolPromise;
-            const sql = `SELECT session_id, created_at FROM agent_chat_session ORDER BY created_at DESC`;
+            const sql = `SELECT session_id,title, created_at FROM agent_chat_session ORDER BY created_at DESC`;
             const [rows] = await pool.query(sql);
+            return rows;
+        }
+        catch(err){
+            throw err;
+        }
+    }
+
+    static async setSessionTitle (title,sessinoId){
+        try{
+            const pool = await poolPromise;
+            const sql = `UPDATE agent_chat_session SET title = ? WHERE session_id = ?`;
+            const [rows] = await pool.query(sql,[title,sessinoId]);
             return rows;
         }
         catch(err){

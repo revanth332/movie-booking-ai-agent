@@ -1,0 +1,120 @@
+#group,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,Metric_Area,_field,_measurement,facility,grouping,parent_grouping
+,,0,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T17:54:36.233Z,Crane 1 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,0,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T17:54:36.737Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,0,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T17:54:38.24Z,Crane 1 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,0,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T17:54:38.74Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,0,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:12:05.113Z,Crane 1 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,0,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:12:06.113Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,0,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:12:08.117Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,0,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:13:08.203Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,0,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:13:09.203Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,0,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:15:43.44Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,0,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:15:44.44Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,0,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:27:23.637Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,0,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:27:24.64Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,1,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T17:54:36.233Z,ASRS Crane 1,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,1,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T17:54:36.737Z,Crane1_Status Status,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,1,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T17:54:38.24Z,ASRS Crane 1,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,1,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T17:54:38.74Z,Crane1_Status Status,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,1,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:12:05.113Z,ASRS Crane 1,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,1,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:12:06.113Z,Crane1_Status Status,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,1,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:12:08.117Z,Crane1_Status Status,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,1,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:13:08.203Z,Crane1_Status Status,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,1,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:13:09.203Z,Crane1_Status Status,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,1,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:15:43.44Z,Crane1_Status Status,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,1,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:15:44.44Z,Crane1_Status Status,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,1,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:27:23.637Z,Crane1 Error,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,1,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:27:24.64Z,Crane1 Error,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,2,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T17:54:36.233Z,prov:default:/tag:L2/ASRS/Cranes/Crane1_Status/Crane1_Error:/alm:Faulted,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,2,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T17:54:36.737Z,prov:default:/tag:L2/ASRS/Crane1_Status/Error_Status:/alm:Stopped_Status,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,2,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T17:54:38.24Z,prov:default:/tag:L2/ASRS/Cranes/Crane1_Status/Crane1_Error:/alm:Faulted,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,2,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T17:54:38.74Z,prov:default:/tag:L2/ASRS/Crane1_Status/Error_Status:/alm:Stopped_Status,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,2,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:12:05.113Z,prov:default:/tag:L2/ASRS/Cranes/Crane1_Status/Crane1_Error:/alm:Faulted,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,2,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:12:06.113Z,prov:default:/tag:L2/ASRS/Crane1_Status/Error_Status:/alm:Stopped_Status,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,2,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:12:08.117Z,prov:default:/tag:L2/ASRS/Crane1_Status/Error_Status:/alm:Stopped_Status,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,2,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:13:08.203Z,prov:default:/tag:L2/ASRS/Crane1_Status/Error_Status:/alm:Stopped_Status,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,2,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:13:09.203Z,prov:default:/tag:L2/ASRS/Crane1_Status/Error_Status:/alm:Stopped_Status,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,2,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:15:43.44Z,prov:default:/tag:L2/ASRS/Crane1_Status/Error_Status:/alm:Stopped_Status,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,2,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:15:44.44Z,prov:default:/tag:L2/ASRS/Crane1_Status/Error_Status:/alm:Stopped_Status,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,2,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:27:23.637Z,prov:default:/tag:L2/ASRS/Cranes/Alarm/Crane1/Error_Status:/alm:Alarm100,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,2,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:27:24.64Z,prov:default:/tag:L2/ASRS/Cranes/Alarm/Crane1/Error_Status:/alm:Alarm100,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,3,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T17:54:36.233Z,down,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,3,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T17:54:36.737Z,down,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,3,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T17:54:38.24Z,up,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,3,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T17:54:38.74Z,up,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,3,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:12:05.113Z,down,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,3,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:12:06.113Z,down,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,3,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:12:08.117Z,up,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,3,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:13:08.203Z,down,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,3,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:13:09.203Z,up,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,3,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:15:43.44Z,down,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,3,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:15:44.44Z,up,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,3,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:27:23.637Z,down,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,3,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:27:24.64Z,up,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_1,ASRS_System
+,,4,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:18:17.68Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_3,ASRS_System
+,,4,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:18:21.687Z,Crane 3 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_3,ASRS_System
+,,4,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:20:53.927Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_3,ASRS_System
+,,4,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:20:54.947Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_3,ASRS_System
+,,5,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:18:17.68Z,Crane3_Status Status,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_3,ASRS_System
+,,5,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:18:21.687Z,ASRS Crane 3,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_3,ASRS_System
+,,5,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:20:53.927Z,Crane3 Error,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_3,ASRS_System
+,,5,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:20:54.947Z,Crane3 Error,Mechatronics,displaypath,equipment_status,Gateway,ASRS_Crane_3,ASRS_System
+,,6,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:18:17.68Z,prov:default:/tag:L2/ASRS/Crane3_Status/Error_Status:/alm:Stopped_Status,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_3,ASRS_System
+,,6,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:18:21.687Z,prov:default:/tag:L2/ASRS/Cranes/Crane3_Status/Crane3_Error:/alm:Faulted,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_3,ASRS_System
+,,6,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:20:53.927Z,prov:default:/tag:L2/ASRS/Cranes/Alarm/Crane3/Error_Status:/alm:Alarm100,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_3,ASRS_System
+,,6,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:20:54.947Z,prov:default:/tag:L2/ASRS/Cranes/Alarm/Crane3/Error_Status:/alm:Alarm100,Mechatronics,source,equipment_status,Gateway,ASRS_Crane_3,ASRS_System
+,,7,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:18:17.68Z,down,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_3,ASRS_System
+,,7,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:18:21.687Z,up,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_3,ASRS_System
+,,7,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:20:53.927Z,down,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_3,ASRS_System
+,,7,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:20:54.947Z,up,Mechatronics,status,equipment_status,Gateway,ASRS_Crane_3,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:03:30.64Z,Crane 5 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:03:30.667Z,Crane in Manual,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:03:31.14Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:03:31.143Z," Long-time load overhang/Forks not in centre, left side < Load out oppisite side during RC out>",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:04:22.223Z,Crane 5 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:04:22.267Z,Crane in Manual,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:04:22.333Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:04:23.727Z,Crane in SemiAuto,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:04:50.277Z,Crane in Manual,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:04:59.29Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:05:00.293Z,Crane in Manual,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:06:21.46Z,Crane in SemiAuto,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:07:50.503Z,Crane 5 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:07:51.527Z,Crane 5 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:07:51.587Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:08:42.78Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T18:08:43.78Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:38:21.197Z,Crane 5 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:38:21.2Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:05.767Z,Crane 5 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:05.81Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:16.78Z,Crane 5 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:17.28Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:17.307Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:23.787Z,Crane 5 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:23.84Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:23.933Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:31.8Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:32.8Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:34.807Z,Crane 5 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:42.827Z,Crane in Manual Error,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:44.827Z,Crane 5 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:44.863Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:49.837Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:50.837Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:55.843Z,Crane 5 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:39:55.867Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:40:22.88Z,Crane 5 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:40:24.883Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:40:25.883Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:40:30.893Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:40:31.893Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:40:33.897Z,Crane 5 Faulted,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:40:34.4Z," Short-time load overhang/Forks not in centre, right side",Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:40:37.907Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:40:49.927Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:41:00.943Z,Crane Stopped,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
+,,8,2025-02-05T17:50:20.359458109Z,2025-02-05T19:50:20.359458109Z,2025-02-05T19:41:01.943Z,Crane in Manual Error,Mechatronics,description,equipment_status,Gateway,ASRS_Crane_5,ASRS_System
